@@ -17,9 +17,9 @@
 2. 資料整理
     > * unixReviewTime(評論者留評級時間)--> 更改為年月日格式
 3. 資料切分
-    > 1. 訓練資料拆分兩種情境：以'2018-09-01'前分析、以'2018-06-01'～'2018-09-01'分析近三個月
-    > 2. 測試資料：'2018-09-01'～'2018-09-30'
-4. 產生推薦及推薦結果
+    > * 訓練資料拆分兩種情境：以'2018-09-01'前分析、以'2018-06-01'～'2018-09-01'分析近三個月
+    > * 測試資料：'2018-09-01'～'2018-09-30'
+4. 產生推薦
     | method | 排序欄位| 升降冪 |資料區間 |
     |-------|:-----:|------:|------:|
     | reviewer_count   |  ['reviewer_count']  | ascending=(False) |'2018-09-01'前|
@@ -30,11 +30,11 @@
     | nearly 3_months: avg_rating   |  ['avg_rating']  |ascending=(False) |''2018-06-01'～'2018-09-01'|
 
 5. 推薦結果
-    | method | 推薦結果|
-    |-------|:-----:|
-    | reviewer_count   |  8.31 %  |
-    | avg_rating   |   0.0 %|
-    | reviewer_count>avg_rating   |  8.31 %|
-    | avg_rating>reviewer_count   |  0.0 % |
-    | nearly 3_months: reviewer_count   |  15.42 % |
-    | nearly 3_months: avg_rating   |  0.17 % |
+    | method | 推薦準確度| 建議選擇方案|
+    |-------|:-----:|:-----:|
+    | reviewer_count   |  8.31 %  ||
+    | avg_rating   |   0.0 %||
+    | reviewer_count>avg_rating   |  8.31 %||
+    | avg_rating>reviewer_count   |  0.0 % ||
+    | nearly 3_months: reviewer_count   |  15.42 % |Best|
+    | nearly 3_months: avg_rating   |  0.17 % ||
