@@ -30,12 +30,12 @@
 5. 推薦結果
     | method                         | 推薦準確度 | 建議選擇方案|
     |--------------------------------|:--------:|:---------:|
-    | reviewer_count                 |  8.31 %  |.          |
-    | avg_rating                     |   0.0 %  |.          |
-    | reviewer_count> avg_rating     |  8.31 %. |.          |
-    | avg_rating> reviewer_count     |  0.0 %   |.          |
-    | nearly 3_months: reviewer_count|  15.42 % |Best.      |
-    | nearly 3_months: avg_rating    |  0.17 %  |.          |
+    | reviewer_count                 |  8.31 %  |-          |
+    | avg_rating                     |   0.0 %  |-          |
+    | reviewer_count> avg_rating     |  8.31 %. |-          |
+    | avg_rating> reviewer_count     |  0.0 %   |-          |
+    | nearly 3_months: reviewer_count|  15.42 % |Best       |
+    | nearly 3_months: avg_rating    |  0.17 %  |-          |
 6. 結論
      > 使用近三個月的reviewer_count所選出的商品推薦表現最佳，準確度達15.42%，主要原因可能為留言數無法直接表示商品購買量，但能表示商品購買熱度，且近三個月更能表示近期大家關注的商品。
     
