@@ -1,10 +1,10 @@
 # Week2: Content-based recommendation
 
 ## 專案目的
-
+   透過Amazon購物網站的美妝消費資料，萃取`客戶商品申購、評論歷史資訊`、`產品基本資訊`關鍵欄位，建置以內容為基礎的過濾(Content-based)的方式，替指定消費者，依據過去歷史購買的商品推薦類似的 k個商品，並使用`是否實際購買推薦商品(recall score)`作為評估成效指標
 
 ## 使用工具
-
+   Python、 Google Colab
 
 ## 使用資料
    1. 資料來源： 
@@ -35,7 +35,8 @@
    9. 使用cosine_similarity計算相似度矩陣
 
 ##推薦規則
-> 我們已完備設計Content-based推薦系統基礎資料，以下為思考脈絡說明
+> 我們已準備好設計Content-based推薦系統基礎資料，以下為思考脈絡說明
+1. 首先以
 
 
 ##結論
