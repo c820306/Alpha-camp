@@ -2,7 +2,7 @@
 
 ## 專案目的
 
-透過Amazon購物網站的美妝消費資料，萃取`客戶購買之商品`、`評論歷史資訊`等影響推薦成效之欄位，建置協同過濾(Collaborative filtering)的方式，替指定消費者，以推薦使用者所在的群組中熱門的項目(User-based)或推薦被同一群使用者共同喜歡的商品(Item-based)，推薦的k個商品，並使用`是否實際購買推薦商品`作為評估recall score成效指標
+透過Amazon購物網站的美妝消費資料，萃取`客戶購買之商品`、`評論歷史資訊`等影響推薦成效之欄位，建置協同過濾(Collaborative filtering)的方式，替指定消費者，以推薦使用者所在的群組中熱門的項目(User-based)或推薦被同一群使用者共同喜歡的商品(Item-based)，推薦k個商品，並使用`是否實際購買推薦商品`作為評估recall score成效指標
 
 ## 使用工具
    * Python: gzip, json, time, pandas, surprise, collecitons, itertools, matplotlib, seaborn
