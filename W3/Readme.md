@@ -5,7 +5,8 @@
 透過Amazon購物網站的美妝消費資料，萃取`客戶購買之商品`、`評論歷史資訊`等影響推薦成效之欄位，建置協同過濾(Collaborative filtering)的方式，替指定消費者，以推薦使用者所在的群組中熱門的項目(User-based)或推薦被同一群使用者共同喜歡的商品(Item-based)，推薦的k個商品，並使用`是否實際購買推薦商品`作為評估recall score成效指標
 
 ## 使用工具
-   Python、 Google Colab
+   * Python: gzip, json, time, pandas, surprise, collecitons, itertools, matplotlib, seaborn
+   * Google Colab
 
 ## 使用資料
    1. 資料來源： 
@@ -47,7 +48,7 @@
 item-based可進行推薦的基礎，主要建構於該商品有被評價，並同時與其他商品被用戶評價的前提下才能成立，依照資料集EDA，因為有部份產品僅購買一次並未被其他user同時購買其他產品
   3. 38位用戶中，6個用戶所購買產品為近一個月Top20
 
-### Surprise-based：
+### Surprise：
    1. 使用cosine similarity計算相似度矩陣
    2. 使用colab有將資料區間篩選為近一年，避免記憶體資料不足去運算
    3. 推薦準度為0.169%
