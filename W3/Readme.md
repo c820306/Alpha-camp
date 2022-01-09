@@ -1,4 +1,4 @@
-# Week2: Content-based recommendation
+# Week3: Collaborative_filtering recommendation
 
 ## 專案目的
 
